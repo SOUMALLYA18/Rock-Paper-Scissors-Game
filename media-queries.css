@@ -45,7 +45,7 @@
   .rules {
     position: absolute;
     top: 39.9rem;
-    left: 10rem;
+    left: 7rem;
   }
   .open-popup {
     transform: translate(56%, -105%) scale(1);
@@ -96,7 +96,7 @@
   }
   #next-btn {
     top: 29.6rem;
-    left: 11.3rem;
+    left: 10rem;
   }
 }
 
@@ -149,7 +149,7 @@
   .rules {
     position: absolute;
     top: 39.9rem;
-    left: 10rem;
+    left: 7rem;
   }
   .open-popup {
     transform: translate(56%, -105%) scale(1);
@@ -199,6 +199,6 @@
   }
   #next-btn {
     top: 29.6rem;
-    left: 11.3rem;
+    left: 10rem;
   }
 }
