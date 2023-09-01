@@ -5,6 +5,9 @@
     align-items: center;
     margin-left: -17%;
   }
+  .main-container .contest {
+    display: none !important;
+  }
   .header-container {
     width: 101%;
     height: 91%;
