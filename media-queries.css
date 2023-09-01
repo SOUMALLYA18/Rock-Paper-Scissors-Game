@@ -5,9 +5,7 @@
     align-items: center;
     margin-left: -17%;
   }
-  .main-container .contest {
-    display: none !important;
-  }
+
   .header-container {
     width: 101%;
     height: 91%;
@@ -53,7 +51,6 @@
     transform: translate(56%, -105%) scale(1);
   }
   .contest {
-    display: none;
     margin-left: auto;
     margin-right: auto;
     display: flex;
