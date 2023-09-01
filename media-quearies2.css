@@ -1,0 +1,35 @@
+/* Media Query for screens between 320px and 500px */
+@media (min-width: 320px) and (max-width: 500px) {
+  .main-container {
+    height: 44rem;
+    width: 29rem;
+  }
+
+  .rules {
+    position: absolute;
+    top: 47.9rem;
+    left: 21rem;
+    display: flex;
+  }
+
+  #star-1 {
+    top: 3rem;
+    left: 6rem;
+  }
+
+  #star-9 {
+    top: -1rem;
+    left: 8.5rem;
+  }
+
+  #star-3 {
+    top: -4rem;
+    left: 11rem;
+  }
+
+  #star-5 {
+    position: absolute;
+    top: 11.8rem;
+    left: 10rem;
+  }
+}

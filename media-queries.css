@@ -1,0 +1,205 @@
+@media (min-width: 320px) and (max-width: 500px) {
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -17%;
+  }
+  .header-container {
+    width: 101%;
+    height: 91%;
+    gap: 9px;
+    margin-left: 12px;
+  }
+  .leftsection-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    padding: 8px;
+  }
+  .rightsection-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .right-section-box-container {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 4px;
+    font-size: 6px;
+  }
+  .Score-section {
+    font-size: 20px;
+  }
+  .game {
+    width: 412px;
+    height: 412px;
+    margin-left: 45px;
+  }
+  .img-1 {
+    width: 9rem;
+    height: 9rem;
+  }
+  .rules {
+    position: absolute;
+    top: 39.9rem;
+    left: 10rem;
+  }
+  .open-popup {
+    transform: translate(56%, -105%) scale(1);
+  }
+  .contest {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    margin-top: 2.4rem;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .middle-section {
+    padding: 0px;
+  }
+  #heading-4 {
+    font-size: 19px;
+  }
+  #list-item {
+    font-size: 13px;
+  }
+  #play-again-btn {
+    width: 127px;
+    height: 37px;
+  }
+  .right-section {
+    padding: 0px;
+  }
+  .Ellipse-3 {
+    width: 120px;
+    height: 120px;
+  }
+  .Ellipse-2 {
+    width: 160px;
+    height: 160px;
+  }
+  .Ellipse-1 {
+    width: 200px;
+    height: 200px;
+  }
+  .heading-3 {
+    font-size: 10px;
+  }
+  #next-btn {
+    top: 29.6rem;
+    left: 11.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: lightblue;
+  }
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -17%;
+  }
+  .header-container {
+    width: 101%;
+    height: 91%;
+    gap: 9px;
+    margin-left: 12px;
+  }
+  .leftsection-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    padding: 8px;
+  }
+  .rightsection-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .right-section-box-container {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 4px;
+    font-size: 6px;
+  }
+  .Score-section {
+    font-size: 20px;
+  }
+  .game {
+    width: 412px;
+    height: 412px;
+    margin-left: 45px;
+  }
+  .img-1 {
+    width: 9rem;
+    height: 9rem;
+  }
+  .rules {
+    position: absolute;
+    top: 39.9rem;
+    left: 10rem;
+  }
+  .open-popup {
+    transform: translate(56%, -105%) scale(1);
+  }
+  .contest {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    margin-top: 2.4rem;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+  .middle-section {
+    padding: 0px;
+  }
+  #heading-4 {
+    font-size: 19px;
+  }
+  #list-item {
+    font-size: 13px;
+  }
+  #play-again-btn {
+    width: 127px;
+    height: 37px;
+  }
+  .right-section {
+    padding: 0px;
+  }
+  .Ellipse-3 {
+    width: 120px;
+    height: 120px;
+  }
+  .Ellipse-2 {
+    width: 160px;
+    height: 160px;
+  }
+  .Ellipse-1 {
+    width: 200px;
+    height: 200px;
+  }
+  .heading-3 {
+    font-size: 10px;
+  }
+  #next-btn {
+    top: 29.6rem;
+    left: 11.3rem;
+  }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock-Paper-Scissors-game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media-queries.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="header-container">
+          <div class="leftsection-header">
+            <ul>
+              <li>ROCK</li>
+              <li>PAPER</li>
+              <li>SCISSORS</li>
+            </ul>
+          </div>
+          <div class="rightsection-header">
+            <div class="right-section-box-container">
+              <ul class="unorder-list">
+                <li>COMPUTER</li>
+                <li>SCORE</li>
+                <li class="Score-section" id="cp-score">0</li>
+              </ul>
+            </div>
+            <div class="right-section-box-container">
+              <ul>
+                <li>YOUR</li>
+                <li>SCORE</li>
+                <li class="Score-section" id="user-score">0</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="game">
+        <button class="hands" onclick="pickUserHand('rock')">
+          <img src="./images/rock-hand.png" class="img-1" />
+        </button>
+        <button class="hands" id="scissors" onclick="pickUserHand('scissors')">
+          <img src="./images/scisssors-hand.png" class="img-1" />
+        </button>
+        <button class="hands" onclick="pickUserHand('paper')">
+          <img src="./images/paper-hand.png" class="img-1" />
+        </button>
+      </div>
+      <div class="contest">
+        <div class="left-section" id="user-choose-section">
+          <div id="user-hand-heading">
+            <h2 id="user-choice-heading">YOU PICKED</h2>
+            <div id="user-select-option">
+              <img
+                id="selected-hand-image"
+                src="./images/scisssors-hand.png"
+                class="img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="middle-section">
+          <ul>
+            <li class="list">
+              <h2 id="heading-4">YOU WIN</h2>
+            </li>
+            <li class="list" id="list-item">AGAINST PC</li>
+            <li class="list">
+              <button id="play-again-btn" onclick="restartGame()">
+                PLAY AGAIN
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="right-section" id="pc-choose-section">
+          <div id="pc-picked-heading">
+            <h2 id="computer-choice-heading">PC PICKED</h2>
+            <div id="pc-select-option">
+              <img
+                id="pc-picked"
+                src="./images/paper-hand.png"
+                alt=""
+                class="img"
+              />
+            </div>
+          </div>
+        </div>
+        <button id="next-btn">
+          <a href="./winner.html" style="color: #fff">NEXT</a>
+        </button>
+      </div>
+    </div>
+    <div class="rules">
+      <button id="rule-btn" onclick="openpopup()">RULES</button>
+      <div class="pop-up-container" id="popup">
+        <div class="rules-container">
+          <h2 id="heading2">Game Rules</h2>
+          <ul id="rules-description-list">
+            <li class="rules-description">
+              Rock beats scissors, scissors beat paper,and paper beats rock.
+            </li>
+            <li class="rules-description">
+              Agree ahead of time whether you’ll count off “rock, paper,
+              scissors, shoot” or just “rock, paper, scissors.”
+            </li>
+            <li class="rules-description">
+              Use rock, paper, scissors to settle minor decisions or simply play
+              to pass the time
+            </li>
+            <li class="rules-description">
+              If both players lay down the same hand, each player lays down
+              another hand
+            </li>
+          </ul>
+        </div>
+        <button id="back-btn" onclick="closepopup()">
+          <div class="backbtn-hold-container">
+            <h2 id="heading1">X</h2>
+            <img src="./images/back-btn.png" alt="" id="" />
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winner Page</title>
+    <link rel="stylesheet" href="./winnerstyle.css" />
+    <link rel="stylesheet" href="./media-quearies2.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="Frame-1">
+        <img src="./images/Trophy.png" id="trophy-img" />
+        <img src="./images/Star 6.png" id="star-6" />
+        <img src="./images/Star 2.png" id="star-2" />
+        <img src="./images/Star 1.png" id="star-1" />
+        <img src="./images/Star 9.png" id="star-9" />
+        <img src="./images/Star 4.png" id="star-4" />
+        <img src="./images/Star 3.png" id="star-3" />
+        <img src="./images/Star 5.png" id="star-5" />
+        <img src="./images/Star 7.png" id="star-7" />
+      </div>
+      <div class="Frame-2">
+        <ul class="unorder-list">
+          <li class="list-item" id="first-list-item">HURRAY!!</li>
+          <li class="list-item" id="second-list-item">YOU WON THE GAME</li>
+          <li class="list-item">
+            <button id="play-again-btn" onclick="restartGame()">
+              PLAY AGAIN
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="rules">
+        <button id="rule-btn" onclick="openpopup()">RULES</button>
+        <div class="pop-up-container" id="popup">
+          <div class="rules-container">
+            <h2 id="heading2">Game Rules</h2>
+            <ul id="rules-description-list">
+              <li class="rules-description">
+                Rock beats scissors, scissors beat paper,and paper beats rock.
+              </li>
+              <li class="rules-description">
+                Agree ahead of time whether you’ll count off “rock, paper,
+                scissors, shoot” or just “rock, paper, scissors.”
+              </li>
+              <li class="rules-description">
+                Use rock, paper, scissors to settle minor decisions or simply
+                play to pass the time
+              </li>
+              <li class="rules-description">
+                If both players lay down the same hand, each player lays down
+                another hand
+              </li>
+            </ul>
+          </div>
+          <button id="back-btn" onclick="closepopup()">
+            <div class="backbtn-hold-container">
+              <h2 id="heading1">X</h2>
+              <img src="./images/back-btn.png" alt="" id="" />
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
