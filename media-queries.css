@@ -50,6 +50,7 @@
     transform: translate(56%, -105%) scale(1);
   }
   .contest {
+    display: none;
     margin-left: auto;
     margin-right: auto;
     display: flex;
